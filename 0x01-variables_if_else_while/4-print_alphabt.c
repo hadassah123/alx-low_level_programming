@@ -1,8 +1,8 @@
 #include  <stdio.h>
 
 /**
- * main - prints tge alphabet in lowercase
- * followed by a new line.except q and e
+ * main - prints the alphabet in lowercase
+ * followed by a new line except q and e
  * Retuns: 0
  */
 int main(void)
@@ -16,5 +16,6 @@ int main(void)
 	}
 
 	putchar('\n');
+
 	return (0);
 }
