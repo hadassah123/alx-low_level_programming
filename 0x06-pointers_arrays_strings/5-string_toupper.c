@@ -1,0 +1,20 @@
+#include "main.h"
+/**
+ * string_toupper - changes all lowercase to uppercase
+ * @s: input string
+ * Return: the pointer to dest
+ */
+
+char *string_toupper(char *s)
+{
+	int calc = 0;
+
+	while (*(s + calc) != '\0')
+	{
+		if ((*(s + calc) >= 97) && (*(s + calc) <= 122))
+			*(s + calc) = *(s + calc) - 32;
+		calc++;
+	}
+
+	return (s);
+}
