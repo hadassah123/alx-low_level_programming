@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * binary_to_unit - convert a binary number to an unsigned int
+ * binary_to_uint - convert a binary number to an unsigned int
  * @b: char string
  * Return: converted decimal number or 0
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int total, power;
 	int lent;
